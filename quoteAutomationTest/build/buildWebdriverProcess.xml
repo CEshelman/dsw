@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="shared-master" default="all" basedir=".">
+
+	<property name="env.file" value="../src/com/ibm/dsw/automation/common/Settings.properties"/>
+	<property name="security.file" value="../src/security.properties"/>
+	<property name="log4j.file" value="../src/log4j.properties"/>
+
+	<!-- *************************** build process definition ***************************** -->
+	<target name="all" depends="init">
+
+		<condition property="run_test_condition">
+				<istrue value="${run_test}" />  
+		</condition>
+		<antcall target="run_webdriver" />
+	</target>
+
+	<target name="run_webdriver" if="run_test_condition">
+		<ant antfile="build.xml" inheritall="true" target="${deploy_target}" />
+	</target>
+	
+	<!--
+	<target name="sendmail" >
+		<ant antfile="build.xml -listener com.ibm.dsw.automation.common.BuildMonitor -logfile c:\selenium.log " inheritall="true" target="${deploy_target}" />
+		
+	</target>
+	-->
+	<target name="init">
+		<echo message="current_timestamp? --> ${current_timestamp}"/>
+		<echo message="Do build? --> ${run_build}"/>
+		<echo message="target? --> ${deploy_target}"/>
+		<tstamp>
+				<format property="current_timestamp" pattern="yyyy-MM-dd" locale="en" />
+		</tstamp>
+		<echo message="zip file to ? --> ${base.dir}/webdriver_${env}/ziprep/${current_timestamp}.webdriver.zip"/>
+		<zip destfile="${base.dir}/webdriver_${env}/ziprep/${current_timestamp}.webdriver.zip"
+				       basedir="../test-output/html"
+				       update="true"
+				 />
+		<echo message="delete the previous report" />
+		<delete includeemptydirs="true">
+			<fileset dir="../test-output/html" includes="**/*"/>
+		</delete>
+		
+		
+		<chmod perm="777" dir="../"/>
+		<echo message="env  ${deploy_target}" />
+		<replaceregexp file="${env.file}" match="env=(.*)" replace="env=${deploy_target}" byline="false" />
+		<echo message="htmlSourceFolder? --> ${base.dir}/webdriver_${env}/source/quoteAutomationTest/test-output" />
+		<replaceregexp file="${env.file}" match="htmlSourceFolder=(.*)" replace="htmlSourceFolder=${base.dir}/webdriver_${env}/source/quoteAutomationTest/test-output" byline="false" />	
+		<echo message="bldByRTC? --> ${bldByRTC}" />
+		<replaceregexp file="${env.file}" match="bldByRTC=(.*)" replace="bldByRTC=${bldByRTC}" byline="false" />
+		<echo message="sqo_username? --> ${sqo_username}" />
+		<replaceregexp file="${env.file}" match="sqo_username=(.*)" replace="sqo_username=${sqo_username}" byline="false" />
+		<replaceregexp file="${env.file}" match="sqo_password=(.*)" replace="sqo_password=${sqo_password}" byline="false" />
+		<echo message="needsendMail? --> true" />
+		<replaceregexp file="${env.file}" match="needsendMail=(.*)" replace="needsendMail=true" byline="false" />		
+		<replaceregexp file="${security.file}" match="decrypt.path=(.*)" replace="decrypt.path=${decryptPath}" byline="false" />
+		<echo message="log4j.appender.A2.File=? --> ${base.dir}/${deploy_target}/selenium.log" />
+		<replaceregexp file="${log4j.file}" match="log4j.appender.A2.File=(.*)" replace="log4j.appender.A2.File=${base.dir}/${deploy_target}/selenium.log" byline="false" />	
+		
+	</target>
+
+</project>

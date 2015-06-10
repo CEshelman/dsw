@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+
+
+<suite name="MTP_DSW">
+	<test name="webdriver_report_for_uat">
+		<classes>
+			<class  name="com.ibm.dsw.automation.testcase.mtp.SQOStandAppVadProTest" />
+			<class  name="com.ibm.dsw.automation.testcase.mtp.PGSStandAppVadProTest" />
+		</classes>
+	</test>
+</suite>
+
+ 

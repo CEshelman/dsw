@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+
+
+<suite name="xprs">
+	
+	<test name="webdriver_report_for_xprs">
+		<classes>
+			<class name="com.ibm.dsw.automation.testcase.xprs.PGSPPXPRSCreateQuoteTest" />
+			<class name="com.ibm.dsw.automation.testcase.xprs.PGSPPXPRSStatusSearchTest" />
+			<class name="com.ibm.dsw.automation.testcase.base.SQOFlowDemo" />
+		</classes>
+	</test>
+	
+</suite>
+
+ 

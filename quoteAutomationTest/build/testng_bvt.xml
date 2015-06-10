@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+
+
+<suite name="FVT_SQO">
+	
+	<test name="webdriver_report_for_bvt">
+		<classes>
+			<class name="com.ibm.dsw.automation.testcase.bvt.SQOBVTScript" />
+			<class name="com.ibm.dsw.automation.testcase.bvt.PGSBVTScript" />
+		</classes>
+	
+	</test>
+
+	
+</suite>
+
+ 

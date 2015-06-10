@@ -1,0 +1,23 @@
+
+    <body>  
+    <br/>
+    Dear All,     
+    <br/>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;Please kindly note that the automation script:: 
+    #if($result=='failed')
+    <font color="red">
+    #else
+    <font color="blue">
+    #end
+    $scriptName
+    </font>
+     run $result in $env.</p>
+    <br/>
+    $time
+    <br/>
+	Note: This is an system automation message, Please do not reply.
+	<br/>
+	<br/>
+	Thanks & Regards,
+    <br/><br/>**----- DSW automation Test tool-----**  
+    </body>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="local_test" name="quoteAutomationTest">
+	<property environment="env" />
+	<property name="debuglevel" value="source,lines,vars" />
+	<property name="target" value="1.6" />
+	<property name="source" value="1.6" />
+	<property name="env.file" value="../target/classes/com/ibm/dsw/automation/common/Settings.properties"/>
+	<path id="quoteAutomationTest.classpath">
+		<pathelement location="../target/classes" />
+		<pathelement location="../selenium-2.25.0/selenium-java-2.25.0-srcs.jar" />
+		<pathelement location="../selenium-2.25.0/selenium-java-2.25.0.jar" />
+		<pathelement location="../selenium-2.25.0/selenium-server-standalone-2.25.0.jar" />
+		<pathelement location="../testng-6.8/testng-6.8.jar" />
+		<pathelement location="../selenium-2.25.0/libs/commons-lang-2.6.jar" />
+		<pathelement location="../db2-9.7/db2jcc_license_cu.jar" />
+		<pathelement location="../db2-9.7/db2jcc.jar" />
+		<pathelement location="../reporting/velocity-dep-1.4.jar" />
+		<pathelement location="../reporting/log4j-1.2.8.jar" />
+		<pathelement location="../reporting/activation.jar"/>
+		<pathelement location="../reporting/ant.jar"/>
+		<pathelement location="../reporting/mail.jar"/>
+		<pathelement location="../reporting/ant-launcher.jar"/>
+		<pathelement location="../reporting/tools.jar"/>
+	</path>
+	<taskdef name="testng" classpathref="quoteAutomationTest.classpath" classname="org.testng.TestNGAntTask" />
+	<target name="init">
+		<mkdir dir="../target/classes" />
+		<copy includeemptydirs="false" todir="../target/classes">
+			<fileset dir="../src">
+				<exclude name="**/*.launch" />
+				<exclude name="**/*.java" />
+			</fileset>
+		</copy>
+
+	</target>
+	<target name="clean">
+		<delete dir="../target/classes" />
+	</target>
+	<target depends="clean" name="cleanall" />
+	<target depends="build-subprojects,build-project" name="build" />
+	<target name="build-subprojects" />
+	<target depends="init" name="build-project">
+		<echo message="${ant.project.name}: ${ant.file}" />
+		<javac debug="true" debuglevel="${debuglevel}" destdir="../target/classes" source="${source}" target="${target}">
+			<src path="../src" />
+			<classpath refid="quoteAutomationTest.classpath" />
+		</javac>
+	</target>
+	<target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects" />
+
+	<path id="runpath">
+		<path refid="quoteAutomationTest.classpath" />
+		<pathelement location="target/classes" />
+	</path>
+
+	<target name="uat" depends="build-project">
+		<echo message="env--> uat" />
+		<replaceregexp file="${env.file}" match="env=(.*)" replace="env=uat" byline="false" />
+		<echo message="running tests" />
+		<testng classpathref="runpath" outputDir="../test-output"
+	          haltonfailure="false"
+	          useDefaultListeners="false"
+	          listeners="org.uncommons.reportng.HTMLReporter,com.ibm.dsw.automation.testng.WebdriverListener">
+			<xmlfileset dir="../build" includes="testng_uat.xml" erroronmissingdir="yes" />
+			<sysproperty key="org.uncommons.reportng.title" value="Webdriver Report"/>
+			<jvmarg value="-ea" />
+		</testng>
+
+	</target>
+	
+	
+	<target name="xprs" depends="build-project">
+		<echo message="env--> uat" />
+		<replaceregexp file="${env.file}" match="env=(.*)" replace="env=fvt" byline="false" />
+		<echo message="running tests" />
+		<testng classpathref="runpath" outputDir="../test-output"
+	          haltonfailure="false"
+	          useDefaultListeners="false"
+	          listeners="org.uncommons.reportng.HTMLReporter,com.ibm.dsw.automation.testng.WebdriverListener">
+			<xmlfileset dir="../build" includes="testng_xprs.xml" erroronmissingdir="yes" />
+			<sysproperty key="org.uncommons.reportng.title" value="Webdriver Report"/>
+			<jvmarg value="-ea" />
+		</testng>
+
+	</target>
+
+	<target name="fvt" depends="build-project">
+		<echo message="env--> fvt" />
+		<replaceregexp file="${env.file}" match="env=(.*)" replace="env=fvt" byline="false" />
+		<replaceregexp file="${env.file}" match="sqo_username=(.*)" replace="sqo_username=zhoujunz@cn.ibm.com" byline="false" />
+		<echo message="running tests" />
+		<testng classpathref="runpath" outputDir="../test-output"
+	          haltonfailure="false"
+	          useDefaultListeners="false"
+	          listeners="org.uncommons.reportng.HTMLReporter,com.ibm.dsw.automation.testng.WebdriverListener">
+			<xmlfileset dir="../build" includes="testng_fvt.xml" erroronmissingdir="yes" />
+			<sysproperty key="org.uncommons.reportng.title" value="Webdriver Report"/>
+			<jvmarg value="-ea" />
+		</testng>
+	</target>
+	
+	<target name="bvt" depends="build-project">
+		<echo message="env--> local" />
+		<replaceregexp file="${env.file}" match="env=(.*)" replace="env=local" byline="false" />
+		<echo message="running tests" />
+		<testng classpathref="runpath" outputDir="../test-output"
+	          haltonfailure="false"
+	          useDefaultListeners="false"
+	          listeners="org.uncommons.reportng.HTMLReporter,com.ibm.dsw.automation.testng.WebdriverListener">
+			<xmlfileset dir="../build" includes="testng_bvt.xml" erroronmissingdir="yes" />
+			<sysproperty key="org.uncommons.reportng.title" value="Webdriver Report"/>
+			<jvmarg value="-ea" />
+		</testng>
+	</target>
+
+	<target name="local_test" depends="build-project">
+		<echo message="env--> fvt" />
+		<replaceregexp file="${env.file}" match="env=(.*)" replace="env=fvt" byline="false" />
+		<echo message="running tests" />
+		<testng classpathref="runpath" outputDir="../test-output"
+	          haltonfailure="false"
+	          useDefaultListeners="false"
+	          listeners="org.uncommons.reportng.HTMLReporter,com.ibm.dsw.automation.testng.WebdriverListener">
+			<xmlfileset dir="../build" includes="testng_local.xml" erroronmissingdir="yes" />
+			<sysproperty key="org.uncommons.reportng.title" value="Webdriver Report"/>
+			<jvmarg value="-ea" />
+		</testng>
+
+	</target>
+
+</project>

@@ -1,0 +1,45 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+
+
+<suite name="FVT_SQO">
+	
+	<test name="webdriver_report_for_fvt">
+	
+		<classes>
+			<class name="com.ibm.dsw.automation.testcase.base.SQOPPXPRSTest" />
+			<class name="com.ibm.dsw.automation.testcase.base.SQOIncreasedQuantityOnExistingSubscriptionPartsTest" />
+			<class name="com.ibm.dsw.automation.testcase.bid.iteration.SQOSubmitBidIteration" />
+			<class name="com.ibm.dsw.automation.testcase.bvt.PGSBVTScript" />
+			<class name="com.ibm.dsw.automation.testcase.bvt.SQOBVTScript" />
+			<class name="com.ibm.dsw.automation.testcase.mtp.PGSStandAppVadProTest" />
+			<class name="com.ibm.dsw.automation.testcase.mtp.SQOStandAppVadProTest" />
+			<class name="com.ibm.dsw.automation.testcase.provision.PGSCopyProvsionInfTest" />
+			<class name="com.ibm.dsw.automation.testcase.provision.PGSUpdtProvsnBySubmtingQuoteTest" />
+			<class name="com.ibm.dsw.automation.testcase.provision.SQOCopyProvsionInfTest" />
+			<class name="com.ibm.dsw.automation.testcase.provision.SQOUpdtProvsnBySubmitingQuote" />
+			<class name="com.ibm.dsw.automation.testcase.saas.PGSSaas104and106Test" />
+			<class name="com.ibm.dsw.automation.testcase.saas.SQOSaas104and106Test" />
+			<class name="com.ibm.dsw.automation.testcase.xprs.PGSPPXPRSCreateQuoteTest" />
+			<class name="com.ibm.dsw.automation.testcase.xprs.PGSPPXPRSRetrieveSaasReportTest" />
+			<class name="com.ibm.dsw.automation.testcase.xprs.PGSPPXPRSStatusSearchTest" />
+			<class name="com.ibm.dsw.automation.testcase.v17.SQOv17PPTabTest" />
+		</classes>
+		<!--  
+		<packages>
+			<package name="com.ibm.dsw.automation.testcase.appliance" />
+			<package name="com.ibm.dsw.automation.testcase.base" />
+			<package name="com.ibm.dsw.automation.testcase.bid.iteration" />
+			<package name="com.ibm.dsw.automation.testcase.bvt" />
+			<package name="com.ibm.dsw.automation.testcase.mtp" />
+			<package name="com.ibm.dsw.automation.testcase.provision" />
+			<package name="com.ibm.dsw.automation.testcase.saas" />
+			<package name="com.ibm.dsw.automation.testcase.provision" />
+			<package name="com.ibm.dsw.automation.testcase.xprs" />
+		</packages>
+		-->	
+	</test>
+
+	
+</suite>
+
+ 

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<project name="Send mail" default="mail" basedir=".">
+	<tstamp>
+		<format property="current_timestamp" pattern="yyyy-MM-dd HH:mm:ss" locale="en" />
+		<format property="current_timestamp2" pattern="yyyy_MM_dd_HH_mm_ss" locale="en" />
+	</tstamp>
+	<target name="init">
+		<property file="deployAndMail.properties" />
+		<property name="app.name" value="SendMail" />
+	</target>
+
+
+
+	<target name="mailWithOutFile" depends="init" unless="mail.file.exist">
+		<echo message="send a report to the mail receivers"/>
+		<echo message="from ${mail.address.from}"/>
+		<echo message="to ${mail.address.tolist}"/>
+		<echo message="No attachment is to be sent"/>
+		<!--
+		<path id="mail.class.path">
+			<pathelement path="${common.lib.dir}/mail.jar" />
+			<pathelement path="${common.lib.dir}/activation.jar" />
+		</path>
+		-->
+		<mail messagemimetype="text/html" mailhost="${mail.host}" encoding="${mail.encoding}"
+			  from="${mail.address.from}" tolist="${mail.address.tolist}" 
+			  subject="${mail.subject}" 
+			  >	
+			<message>${mail.body.message}. ${current_timestamp} ${mail.footer.message} </message>
+		</mail>
+	</target>
+
+	<target name="mail" depends="mailWithOutFile">
+	
+		<antcall target="mailWithOutFile" />	
+			
+	</target>
+</project>

@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+
+
+<suite name="UAT_DSW">
+
+
+	<test name="webdriver_report_for_uat">
+		<classes>
+			<class name="com.ibm.dsw.automation.testcase.base.SQOPPXPRSTest" />
+			<class name="com.ibm.dsw.automation.testcase.bvt.PGSBVTScript" />
+			<class name="com.ibm.dsw.automation.testcase.bvt.SQOBVTScript" />
+			<class name="com.ibm.dsw.automation.testcase.mtp.PGSStandAppVadProTest" />
+			<class name="com.ibm.dsw.automation.testcase.mtp.SQOStandAppVadProTest" />
+			<class name="com.ibm.dsw.automation.testcase.provision.PGSCopyProvsionInfTest" />
+			<class name="com.ibm.dsw.automation.testcase.provision.SQOCopyProvsionInfTest" />
+			<class name="com.ibm.dsw.automation.testcase.saas.PGSSaas104and106Test" />
+			<class name="com.ibm.dsw.automation.testcase.saas.SQOSaas104and106Test" />
+			<class name="com.ibm.dsw.automation.testcase.xprs.PGSPPXPRSCreateQuoteTest" />
+			<class name="com.ibm.dsw.automation.testcase.xprs.PGSPPXPRSRetrieveSaasReportTest" />
+			<class name="com.ibm.dsw.automation.testcase.xprs.PGSPPXPRSStatusSearchTest" />
+			<class name="com.ibm.dsw.automation.testcase.v17.SQOv17PPTabTest" />
+		</classes>
+	</test>
+	
+</suite>
+
+ 

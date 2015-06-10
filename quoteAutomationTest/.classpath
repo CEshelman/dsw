@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="build"/>
+	<classpathentry kind="lib" path="testng-6.8/testng-6.8.jar"/>
+	<classpathentry kind="lib" path="selenium-2.25.0/libs/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="db2-9.7/db2jcc_license_cu.jar"/>
+	<classpathentry kind="lib" path="db2-9.7/db2jcc.jar"/>
+	<classpathentry kind="lib" path="reporting/velocity-dep-1.4.jar"/>
+	<classpathentry kind="lib" path="reporting/log4j-1.2.8.jar"/>
+	<classpathentry kind="lib" path="reporting/ant-launcher.jar"/>
+	<classpathentry kind="lib" path="reporting/ant.jar"/>
+	<classpathentry kind="lib" path="reporting/tools.jar"/>
+	<classpathentry kind="lib" path="selenium-2.32.0/selenium-java-2.32.0-srcs.jar"/>
+	<classpathentry kind="lib" path="selenium-2.32.0/selenium-java-2.32.0.jar"/>
+	<classpathentry kind="lib" path="selenium-2.32.0/selenium-server-standalone-2.32.0.jar"/>
+	<classpathentry kind="lib" path="reporting/mail-1.5.0-b01.jar"/>
+	<classpathentry kind="lib" path="db2-9.7/mysql driver.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/MailShared"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

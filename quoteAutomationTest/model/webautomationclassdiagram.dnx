@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<umlnotation:UMLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_GZj3gJBDEeKwUuJJq0i_yg" type="Class" name="webautomationclassdiagram.dnx">
+  <eAnnotations xmi:id="_GZkekJBDEeKwUuJJq0i_yg" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
+    <details xmi:id="_GZkekZBDEeKwUuJJq0i_yg" key="com.ibm.xtools.rest.ui.uireduction.activity" value="1"/>
+    <details xmi:id="_GZkekpBDEeKwUuJJq0i_yg" key="com.ibm.xtools.activities.javaVisualizerActivity" value="1"/>
+  </eAnnotations>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_J2TrMJBDEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_J29LcJBDEeKwUuJJq0i_yg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_J29LcZBDEeKwUuJJq0i_yg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_J29ygJBDEeKwUuJJq0i_yg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_J2-ZkJBDEeKwUuJJq0i_yg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_J2-ZkZBDEeKwUuJJq0i_yg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_J3A10JBDEeKwUuJJq0i_yg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_J3c6sJBDEeKwUuJJq0i_yg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT" collapsed="true"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_J3dhwJBDEeKwUuJJq0i_yg" type="ANNOTATED_OPERATION_COMPARTMENT" collapsed="true"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=BasePage%5Bjcu%5Ename=BasePage.java%5Bjpack%5Ename=com.ibm.dsw.automation.pageobject%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J2TrMZBDEeKwUuJJq0i_yg" x="20460" y="2112"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_QEMw0JBDEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_QEN-8JBDEeKwUuJJq0i_yg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_QEN-8ZBDEeKwUuJJq0i_yg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_QEOmAJBDEeKwUuJJq0i_yg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_QEOmAZBDEeKwUuJJq0i_yg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_QEOmApBDEeKwUuJJq0i_yg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_QEOmA5BDEeKwUuJJq0i_yg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_QEPNEJBDEeKwUuJJq0i_yg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT" collapsed="true"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_QEPNEZBDEeKwUuJJq0i_yg" type="ANNOTATED_OPERATION_COMPARTMENT" collapsed="true"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=BaseTestCase%5Bjcu%5Ename=BaseTestCase.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QEMw0ZBDEeKwUuJJq0i_yg" x="9108" y="2376"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_R5ih0JBDEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_R5jI4JBDEeKwUuJJq0i_yg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_R5jI4ZBDEeKwUuJJq0i_yg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_R5jv8JBDEeKwUuJJq0i_yg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_R5jv8ZBDEeKwUuJJq0i_yg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_R5kXAJBDEeKwUuJJq0i_yg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_R5kXAZBDEeKwUuJJq0i_yg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_R5mzQJBDEeKwUuJJq0i_yg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT" collapsed="true"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_R5mzQZBDEeKwUuJJq0i_yg" type="ANNOTATED_OPERATION_COMPARTMENT" collapsed="true"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=QuoteFlow%5Bjcu%5Ename=QuoteFlow.java%5Bjpack%5Ename=com.ibm.dsw.automation.flow%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R5ih0ZBDEeKwUuJJq0i_yg" x="15708" y="2376"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_hfh_QJBDEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_hfimUJBDEeKwUuJJq0i_yg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_hfimUZBDEeKwUuJJq0i_yg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_hfjNYJBDEeKwUuJJq0i_yg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_hfjNYZBDEeKwUuJJq0i_yg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_hfjNYpBDEeKwUuJJq0i_yg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_hfj0cJBDEeKwUuJJq0i_yg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_hflCkJBDEeKwUuJJq0i_yg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_hflCkZBDEeKwUuJJq0i_yg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=BaseVO%5Bjcu%5Ename=BaseVO.java%5Bjpack%5Ename=com.ibm.dsw.automation.vo%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hfh_QZBDEeKwUuJJq0i_yg" x="24156" y="1980"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_l5PhwJBUEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_l5R-AJBUEeKwUuJJq0i_yg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_l5R-AZBUEeKwUuJJq0i_yg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_l5R-ApBUEeKwUuJJq0i_yg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_l5SlEJBUEeKwUuJJq0i_yg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_l5SlEZBUEeKwUuJJq0i_yg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_l5TMIJBUEeKwUuJJq0i_yg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_l5VBUJBUEeKwUuJJq0i_yg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT" collapsed="true"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_l5VoYJBUEeKwUuJJq0i_yg" type="ANNOTATED_OPERATION_COMPARTMENT" collapsed="true"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=Country%5Bjcu%5Ename=Country.java%5Bjpack%5Ename=com.ibm.dsw.automation.vo%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l5PhwZBUEeKwUuJJq0i_yg" x="25476" y="10428"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_TzOiIJBVEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_TzPJMJBVEeKwUuJJq0i_yg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_TzPJMZBVEeKwUuJJq0i_yg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_TzPwQJBVEeKwUuJJq0i_yg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_TzPwQZBVEeKwUuJJq0i_yg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_TzPwQpBVEeKwUuJJq0i_yg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_TzPwQ5BVEeKwUuJJq0i_yg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_Tzfn4JBVEeKwUuJJq0i_yg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT" collapsed="true"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_Tzfn4ZBVEeKwUuJJq0i_yg" type="ANNOTATED_OPERATION_COMPARTMENT" collapsed="true"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=SQOQuoteCommonFlow%5Bjcu%5Ename=SQOQuoteCommonFlow.java%5Bjpack%5Ename=com.ibm.dsw.automation.flow%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TzOiIZBVEeKwUuJJq0i_yg" x="15972" y="10560"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_EYHpkJBWEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_EYIQoJBWEeKwUuJJq0i_yg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_EYIQoZBWEeKwUuJJq0i_yg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_EYIQopBWEeKwUuJJq0i_yg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_EYIQo5BWEeKwUuJJq0i_yg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_EYIQpJBWEeKwUuJJq0i_yg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_EYI3sJBWEeKwUuJJq0i_yg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_EYNJIJBWEeKwUuJJq0i_yg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_EYNwMJBWEeKwUuJJq0i_yg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TestUtil%5Bjcu%5Ename=TestUtil.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EYHpkZBWEeKwUuJJq0i_yg" x="1980" y="7128"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_KItIIJBWEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KItvMJBWEeKwUuJJq0i_yg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_KItvMZBWEeKwUuJJq0i_yg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_KIuWQJBWEeKwUuJJq0i_yg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_KIuWQZBWEeKwUuJJq0i_yg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_KIuWQpBWEeKwUuJJq0i_yg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_KIu9UJBWEeKwUuJJq0i_yg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_KIyAoJBWEeKwUuJJq0i_yg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_KIyAoZBWEeKwUuJJq0i_yg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=SeleniumBase%5Bjcu%5Ename=SeleniumBase.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KItIIZBWEeKwUuJJq0i_yg" x="12356" y="14816"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_LKUWIJBWEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_LKU9MJBWEeKwUuJJq0i_yg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_LKU9MZBWEeKwUuJJq0i_yg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_LKU9MpBWEeKwUuJJq0i_yg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_LKU9M5BWEeKwUuJJq0i_yg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_LKVkQJBWEeKwUuJJq0i_yg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_LKVkQZBWEeKwUuJJq0i_yg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_LKWyYJBWEeKwUuJJq0i_yg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_LKXZcJBWEeKwUuJJq0i_yg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=WebdriverLogger%5Bjcu%5Ename=WebdriverLogger.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LKUWIZBWEeKwUuJJq0i_yg" x="24368" y="16377"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_MAMOMJBWEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_MAM1QJBWEeKwUuJJq0i_yg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_MAM1QZBWEeKwUuJJq0i_yg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_MAM1QpBWEeKwUuJJq0i_yg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_MAM1Q5BWEeKwUuJJq0i_yg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_MAM1RJBWEeKwUuJJq0i_yg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_MANcUJBWEeKwUuJJq0i_yg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_MAP4kJBWEeKwUuJJq0i_yg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_MAP4kZBWEeKwUuJJq0i_yg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=BasePropertiesBean%5Bjcu%5Ename=BasePropertiesBean.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MAMOMZBWEeKwUuJJq0i_yg" x="3651" y="18018"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_NQ3L4JBWEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_NQ3L4pBWEeKwUuJJq0i_yg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_NQ3L45BWEeKwUuJJq0i_yg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_NQ3y8JBWEeKwUuJJq0i_yg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_NQ3y8ZBWEeKwUuJJq0i_yg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_NQ3y8pBWEeKwUuJJq0i_yg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_NQ3y85BWEeKwUuJJq0i_yg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_NQ6PMJBWEeKwUuJJq0i_yg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_NQ6PMZBWEeKwUuJJq0i_yg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=PropertiesSingleton%5Bjcu%5Ename=PropertiesSingleton.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NQ3L4ZBWEeKwUuJJq0i_yg" x="5185" y="21828"/>
+  </children>
+  <element xsi:nil="true"/>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_R99HwZBDEeKwUuJJq0i_yg" source="_QEMw0JBDEeKwUuJJq0i_yg" target="_R5ih0JBDEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_R99u0JBDEeKwUuJJq0i_yg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_R99u0pBDEeKwUuJJq0i_yg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_R99u1JBDEeKwUuJJq0i_yg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_R99u05BDEeKwUuJJq0i_yg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R99u0ZBDEeKwUuJJq0i_yg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=BaseTestCase%5Bjcu%5Ename=BaseTestCase.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=QuoteFlow%5Bjcu%5Ename=QuoteFlow.java%5Bjpack%5Ename=com.ibm.dsw.automation.flow%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_R99HwpBDEeKwUuJJq0i_yg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_l8SOsJBUEeKwUuJJq0i_yg" source="_l5PhwJBUEeKwUuJJq0i_yg" target="_hfh_QJBDEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_l8x98JBUEeKwUuJJq0i_yg" type="NameLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_l8x98pBUEeKwUuJJq0i_yg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_l8x985BUEeKwUuJJq0i_yg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l8x98ZBUEeKwUuJJq0i_yg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Generalization" href="mmi:///#jgen%5Bjsrctype%5Ename=Country%5Bjcu%5Ename=Country.java%5Bjpack%5Ename=com.ibm.dsw.automation.vo%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=BaseVO%5Bjcu%5Ename=BaseVO.java%5Bjpack%5Ename=com.ibm.dsw.automation.vo%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D$uml.Generalization"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_l8SOsZBUEeKwUuJJq0i_yg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_T-q9IJBVEeKwUuJJq0i_yg" source="_QEMw0JBDEeKwUuJJq0i_yg" target="_TzOiIJBVEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_T-q9IpBVEeKwUuJJq0i_yg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_T-q9JJBVEeKwUuJJq0i_yg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_T-q9JpBVEeKwUuJJq0i_yg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_T-q9JZBVEeKwUuJJq0i_yg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T-q9I5BVEeKwUuJJq0i_yg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=BaseTestCase%5Bjcu%5Ename=BaseTestCase.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=SQOQuoteCommonFlow%5Bjcu%5Ename=SQOQuoteCommonFlow.java%5Bjpack%5Ename=com.ibm.dsw.automation.flow%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_T-q9IZBVEeKwUuJJq0i_yg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_T-rkMJBVEeKwUuJJq0i_yg" source="_TzOiIJBVEeKwUuJJq0i_yg" target="_R5ih0JBDEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_T-rkMpBVEeKwUuJJq0i_yg" type="NameLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_T-sLQJBVEeKwUuJJq0i_yg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_T-sLQZBVEeKwUuJJq0i_yg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T-rkM5BVEeKwUuJJq0i_yg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Generalization" href="mmi:///#jgen%5Bjsrctype%5Ename=SQOQuoteCommonFlow%5Bjcu%5Ename=SQOQuoteCommonFlow.java%5Bjpack%5Ename=com.ibm.dsw.automation.flow%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=QuoteFlow%5Bjcu%5Ename=QuoteFlow.java%5Bjpack%5Ename=com.ibm.dsw.automation.flow%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D$uml.Generalization"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_T-rkMZBVEeKwUuJJq0i_yg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_T-sLQpBVEeKwUuJJq0i_yg" source="_TzOiIJBVEeKwUuJJq0i_yg" target="_R5ih0JBDEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_T-syUJBVEeKwUuJJq0i_yg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_T-syUpBVEeKwUuJJq0i_yg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_T-syVJBVEeKwUuJJq0i_yg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_T-syU5BVEeKwUuJJq0i_yg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T-syUZBVEeKwUuJJq0i_yg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=SQOQuoteCommonFlow%5Bjcu%5Ename=SQOQuoteCommonFlow.java%5Bjpack%5Ename=com.ibm.dsw.automation.flow%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=QuoteFlow%5Bjcu%5Ename=QuoteFlow.java%5Bjpack%5Ename=com.ibm.dsw.automation.flow%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_T-sLQ5BVEeKwUuJJq0i_yg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_T-tZYJBVEeKwUuJJq0i_yg" source="_TzOiIJBVEeKwUuJJq0i_yg" target="_J2TrMJBDEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_T-uAcJBVEeKwUuJJq0i_yg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_T-uAcpBVEeKwUuJJq0i_yg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_T-uAdJBVEeKwUuJJq0i_yg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_T-uAc5BVEeKwUuJJq0i_yg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T-uAcZBVEeKwUuJJq0i_yg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=SQOQuoteCommonFlow%5Bjcu%5Ename=SQOQuoteCommonFlow.java%5Bjpack%5Ename=com.ibm.dsw.automation.flow%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=BasePage%5Bjcu%5Ename=BasePage.java%5Bjpack%5Ename=com.ibm.dsw.automation.pageobject%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_T-tZYZBVEeKwUuJJq0i_yg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_Ec0jYJBWEeKwUuJJq0i_yg" source="_J2TrMJBDEeKwUuJJq0i_yg" target="_EYHpkJBWEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Ec1KcJBWEeKwUuJJq0i_yg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ec1KcpBWEeKwUuJJq0i_yg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ec1KdJBWEeKwUuJJq0i_yg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ec1Kc5BWEeKwUuJJq0i_yg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ec1KcZBWEeKwUuJJq0i_yg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=BasePage%5Bjcu%5Ename=BasePage.java%5Bjpack%5Ename=com.ibm.dsw.automation.pageobject%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=TestUtil%5Bjcu%5Ename=TestUtil.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ec0jYZBWEeKwUuJJq0i_yg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_Ec1KdZBWEeKwUuJJq0i_yg" source="_QEMw0JBDEeKwUuJJq0i_yg" target="_EYHpkJBWEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Ec1xgJBWEeKwUuJJq0i_yg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ec1xgpBWEeKwUuJJq0i_yg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ec1xhJBWEeKwUuJJq0i_yg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ec1xg5BWEeKwUuJJq0i_yg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ec1xgZBWEeKwUuJJq0i_yg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=BaseTestCase%5Bjcu%5Ename=BaseTestCase.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=TestUtil%5Bjcu%5Ename=TestUtil.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ec1KdpBWEeKwUuJJq0i_yg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_Ec1xhZBWEeKwUuJJq0i_yg" source="_TzOiIJBVEeKwUuJJq0i_yg" target="_EYHpkJBWEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Ec2YkJBWEeKwUuJJq0i_yg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ec2YkpBWEeKwUuJJq0i_yg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ec2YlJBWEeKwUuJJq0i_yg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ec2Yk5BWEeKwUuJJq0i_yg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ec2YkZBWEeKwUuJJq0i_yg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=SQOQuoteCommonFlow%5Bjcu%5Ename=SQOQuoteCommonFlow.java%5Bjpack%5Ename=com.ibm.dsw.automation.flow%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=TestUtil%5Bjcu%5Ename=TestUtil.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ec1xhpBWEeKwUuJJq0i_yg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_KNEDsJBWEeKwUuJJq0i_yg" source="_J2TrMJBDEeKwUuJJq0i_yg" target="_KItIIJBWEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KNEqwJBWEeKwUuJJq0i_yg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_KNEqwpBWEeKwUuJJq0i_yg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_KNEqxJBWEeKwUuJJq0i_yg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_KNEqw5BWEeKwUuJJq0i_yg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KNEqwZBWEeKwUuJJq0i_yg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=BasePage%5Bjcu%5Ename=BasePage.java%5Bjpack%5Ename=com.ibm.dsw.automation.pageobject%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=SeleniumBase%5Bjcu%5Ename=SeleniumBase.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KNEDsZBWEeKwUuJJq0i_yg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_KNEqxZBWEeKwUuJJq0i_yg" source="_QEMw0JBDEeKwUuJJq0i_yg" target="_KItIIJBWEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KNFR0JBWEeKwUuJJq0i_yg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_KNFR0pBWEeKwUuJJq0i_yg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_KNFR1JBWEeKwUuJJq0i_yg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_KNFR05BWEeKwUuJJq0i_yg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KNFR0ZBWEeKwUuJJq0i_yg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=BaseTestCase%5Bjcu%5Ename=BaseTestCase.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=SeleniumBase%5Bjcu%5Ename=SeleniumBase.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KNEqxpBWEeKwUuJJq0i_yg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_KNFR1ZBWEeKwUuJJq0i_yg" source="_R5ih0JBDEeKwUuJJq0i_yg" target="_KItIIJBWEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KNF44JBWEeKwUuJJq0i_yg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_KNF44pBWEeKwUuJJq0i_yg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_KNGf8JBWEeKwUuJJq0i_yg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_KNF445BWEeKwUuJJq0i_yg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KNF44ZBWEeKwUuJJq0i_yg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=QuoteFlow%5Bjcu%5Ename=QuoteFlow.java%5Bjpack%5Ename=com.ibm.dsw.automation.flow%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=SeleniumBase%5Bjcu%5Ename=SeleniumBase.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KNFR1pBWEeKwUuJJq0i_yg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_KNHHAJBWEeKwUuJJq0i_yg" source="_KItIIJBWEeKwUuJJq0i_yg" target="_EYHpkJBWEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KNHHApBWEeKwUuJJq0i_yg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_KNHuEJBWEeKwUuJJq0i_yg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_KNHuEpBWEeKwUuJJq0i_yg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_KNHuEZBWEeKwUuJJq0i_yg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KNHHA5BWEeKwUuJJq0i_yg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=SeleniumBase%5Bjcu%5Ename=SeleniumBase.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=TestUtil%5Bjcu%5Ename=TestUtil.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KNHHAZBWEeKwUuJJq0i_yg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_LNqlEJBWEeKwUuJJq0i_yg" source="_QEMw0JBDEeKwUuJJq0i_yg" target="_LKUWIJBWEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_LNqlEpBWEeKwUuJJq0i_yg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_LNrMIJBWEeKwUuJJq0i_yg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_LNrMIpBWEeKwUuJJq0i_yg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_LNrMIZBWEeKwUuJJq0i_yg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LNqlE5BWEeKwUuJJq0i_yg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=BaseTestCase%5Bjcu%5Ename=BaseTestCase.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=WebdriverLogger%5Bjcu%5Ename=WebdriverLogger.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LNqlEZBWEeKwUuJJq0i_yg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_LNrMI5BWEeKwUuJJq0i_yg" source="_TzOiIJBVEeKwUuJJq0i_yg" target="_LKUWIJBWEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_LNrzMJBWEeKwUuJJq0i_yg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_LNrzMpBWEeKwUuJJq0i_yg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_LNrzNJBWEeKwUuJJq0i_yg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_LNrzM5BWEeKwUuJJq0i_yg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LNrzMZBWEeKwUuJJq0i_yg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=SQOQuoteCommonFlow%5Bjcu%5Ename=SQOQuoteCommonFlow.java%5Bjpack%5Ename=com.ibm.dsw.automation.flow%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=WebdriverLogger%5Bjcu%5Ename=WebdriverLogger.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LNrMJJBWEeKwUuJJq0i_yg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_LNrzNZBWEeKwUuJJq0i_yg" source="_EYHpkJBWEeKwUuJJq0i_yg" target="_LKUWIJBWEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_LNsaQJBWEeKwUuJJq0i_yg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_LNsaQpBWEeKwUuJJq0i_yg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_LNsaRJBWEeKwUuJJq0i_yg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_LNsaQ5BWEeKwUuJJq0i_yg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LNsaQZBWEeKwUuJJq0i_yg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=TestUtil%5Bjcu%5Ename=TestUtil.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=WebdriverLogger%5Bjcu%5Ename=WebdriverLogger.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LNrzNpBWEeKwUuJJq0i_yg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_LNtBUJBWEeKwUuJJq0i_yg" source="_LKUWIJBWEeKwUuJJq0i_yg" target="_EYHpkJBWEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_LNtoYJBWEeKwUuJJq0i_yg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_LNtoYpBWEeKwUuJJq0i_yg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_LNuPcZBWEeKwUuJJq0i_yg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_LNuPcJBWEeKwUuJJq0i_yg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LNtoYZBWEeKwUuJJq0i_yg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=WebdriverLogger%5Bjcu%5Ename=WebdriverLogger.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=TestUtil%5Bjcu%5Ename=TestUtil.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LNtBUZBWEeKwUuJJq0i_yg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_MAgXQJBWEeKwUuJJq0i_yg" source="_QEMw0JBDEeKwUuJJq0i_yg" target="_MAMOMJBWEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_MAgXQpBWEeKwUuJJq0i_yg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_MAgXRJBWEeKwUuJJq0i_yg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_MAg-UJBWEeKwUuJJq0i_yg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_MAgXRZBWEeKwUuJJq0i_yg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MAgXQ5BWEeKwUuJJq0i_yg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=BaseTestCase%5Bjcu%5Ename=BaseTestCase.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=BasePropertiesBean%5Bjcu%5Ename=BasePropertiesBean.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MAgXQZBWEeKwUuJJq0i_yg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_NUB0oJBWEeKwUuJJq0i_yg" source="_J2TrMJBDEeKwUuJJq0i_yg" target="_NQ3L4JBWEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_NUB0opBWEeKwUuJJq0i_yg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_NUB0pJBWEeKwUuJJq0i_yg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_NUCbsJBWEeKwUuJJq0i_yg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_NUB0pZBWEeKwUuJJq0i_yg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NUB0o5BWEeKwUuJJq0i_yg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=BasePage%5Bjcu%5Ename=BasePage.java%5Bjpack%5Ename=com.ibm.dsw.automation.pageobject%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=PropertiesSingleton%5Bjcu%5Ename=PropertiesSingleton.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NUB0oZBWEeKwUuJJq0i_yg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_NUCbsZBWEeKwUuJJq0i_yg" source="_QEMw0JBDEeKwUuJJq0i_yg" target="_NQ3L4JBWEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_NUCbs5BWEeKwUuJJq0i_yg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_NUCbtZBWEeKwUuJJq0i_yg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_NUCbt5BWEeKwUuJJq0i_yg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_NUCbtpBWEeKwUuJJq0i_yg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NUCbtJBWEeKwUuJJq0i_yg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=BaseTestCase%5Bjcu%5Ename=BaseTestCase.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=PropertiesSingleton%5Bjcu%5Ename=PropertiesSingleton.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NUCbspBWEeKwUuJJq0i_yg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_NUDCwJBWEeKwUuJJq0i_yg" source="_R5ih0JBDEeKwUuJJq0i_yg" target="_NQ3L4JBWEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_NUDCwpBWEeKwUuJJq0i_yg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_NUDCxJBWEeKwUuJJq0i_yg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_NUDCxpBWEeKwUuJJq0i_yg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_NUDCxZBWEeKwUuJJq0i_yg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NUDCw5BWEeKwUuJJq0i_yg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=QuoteFlow%5Bjcu%5Ename=QuoteFlow.java%5Bjpack%5Ename=com.ibm.dsw.automation.flow%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=PropertiesSingleton%5Bjcu%5Ename=PropertiesSingleton.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NUDCwZBWEeKwUuJJq0i_yg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_NUDp0JBWEeKwUuJJq0i_yg" source="_NQ3L4JBWEeKwUuJJq0i_yg" target="_EYHpkJBWEeKwUuJJq0i_yg" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_NUDp0pBWEeKwUuJJq0i_yg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_NUDp1JBWEeKwUuJJq0i_yg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_NUEQ4JBWEeKwUuJJq0i_yg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_NUDp1ZBWEeKwUuJJq0i_yg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NUDp05BWEeKwUuJJq0i_yg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=PropertiesSingleton%5Bjcu%5Ename=PropertiesSingleton.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=TestUtil%5Bjcu%5Ename=TestUtil.java%5Bjpack%5Ename=com.ibm.dsw.automation.common%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=quoteAutomationTest%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NUDp0ZBWEeKwUuJJq0i_yg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+</umlnotation:UMLDiagram>

@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+
+
+<suite name="FVT_SQO">
+
+	<test name="webdriver_report_for_Local">
+		<packages>
+			<package name="com.ibm.dsw.automation.testcase.sqo" />
+		</packages>
+	</test>
+	
+	
+	
+</suite>
+<!-- 
+<suite name="SQOPPXPRSTest">
+	<parameter name="browser" value="firefox" />
+	<parameter name="htmlSourceFolder" value="." />
+	<parameter name="env" value="fvt" />
+	<parameter name="url"
+		value="https://w3-117ps.etl.ibm.com/software/sales/passportadvantage/telesales/Entitlement?jadeAction=AUTHENTICATION_DEFAULT_ACTION_HANDLER" />
+	<parameter name="keyword" value="Cheese" />
+	<parameter name="dbdriver" value="com.ibm.db2.jcc.DB2Driver" />
+	<parameter name="dburl" value="jdbc:db2://ltstbrdb001.sby.ibm.com:3700/web" />
+	<parameter name="dbuser" value="changwei" />
+	<parameter name="dbpsswrd" value="ebiz34vs" />
+	
+	<test name="SQOPPXPRSTest">
+		<classes>
+			<class name="com.ibm.dsw.automation.testcase.SQOPPXPRSTest" />
+		</classes>
+	</test>
+</suite>
+ -->
