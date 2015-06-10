@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding=".apt_generated/" kind="src" path=""/>
+	<classpathentry kind="src" path="/quote"/>
+	<classpathentry kind="lib" path="/Common Library/apache/commons-lang-2.0-bin.jar" sourcepath="/Common Library/apache/commons-lang-2.0-src.jar"/>
+	<classpathentry kind="src" path="/quoteShared"/>
+	<classpathentry kind="src" path="/quoteBase"/>
+	<classpathentry kind="lib" path="/Common Library/dsw/IS_Authentication_Domain.jar"/>
+	<classpathentry kind="src" path="/Common Base"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="src" path=".apt_generated">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/EAD4J 4.1.0/ead4j-common-bin.jar" sourcepath="/EAD4J 4.1.0/ead4j-common-src.jar"/>
+	<classpathentry kind="lib" path="/EAD4J 4.1.0/ead4j-common-src.jar"/>
+	<classpathentry kind="lib" path="/EAD4J 4.1.0/ead4j-jade-bin.jar" sourcepath="/EAD4J 4.1.0/ead4j-jade-src.jar"/>
+	<classpathentry kind="lib" path="/EAD4J 4.1.0/ead4j-jade-src.jar"/>
+	<classpathentry kind="lib" path="/EAD4J 4.1.0/ead4j-opal-bin.jar" sourcepath="/EAD4J 4.1.0/ead4j-opal-src.jar"/>
+	<classpathentry kind="lib" path="/EAD4J 4.1.0/ead4j-opal-src.jar"/>
+	<classpathentry kind="lib" path="/EAD4J 4.1.0/ead4j-quartz-bin.jar"/>
+	<classpathentry kind="lib" path="/EAD4J 4.1.0/ead4j-quartz-src.jar"/>
+	<classpathentry kind="lib" path="/EAD4J 4.1.0/ead4j-topaz_jdbc-bin.jar"/>
+	<classpathentry kind="lib" path="/EAD4J 4.1.0/ead4j-topaz_jdbc-src.jar"/>
+	<classpathentry kind="lib" path="/EAD4J 4.1.0/ead4j-topaz-bin.jar"/>
+	<classpathentry kind="lib" path="/EAD4J 4.1.0/ead4j-topaz-src.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/com.ibm.ws.ast.st.runtime.runtimeTarget.v70/WebSphere Application Server v7.0 (full)">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.utility"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/WebSphere Application Server v7.0 (full) JRE">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path=""/>
+</classpath>

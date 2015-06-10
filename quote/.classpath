@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding=".apt_generated/" kind="src" path=""/>
+	<classpathentry kind="lib" path="/Common Library/dsw/IS_Authentication_Apps_Integration.jar"/>
+	<classpathentry kind="lib" path="/Common Library/dsw/IS_Authentication_Domain.jar"/>
+	<classpathentry kind="lib" path="/Common Library/dsw/IS_Utilities.jar"/>
+	<classpathentry kind="lib" path="/Common Library/dsw/WebAuthServicesProxy.jar"/>
+	<classpathentry kind="lib" path="/Common Library/apache/jakarta-oro-2.0.8-bin.jar"/>
+	<classpathentry kind="src" path="/Common Base"/>
+	<classpathentry kind="lib" path="/Common Library/apache/commons-beanutils-bin-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/Common Library/apache/commons-collections-bin-3.1.jar"/>
+	<classpathentry kind="lib" path="/Common Library/apache/commons-digester-bin-1.5.jar"/>
+	<classpathentry kind="lib" path="/Common Library/apache/commons-lang-2.0-bin.jar"/>
+	<classpathentry kind="lib" path="/Common Library/apache/commons-logging-1.0.4-bin.jar"/>
+	<classpathentry kind="src" path="/BluePages"/>
+	<classpathentry kind="lib" path="/Common Library/apache/commons-validator-1.3.1.jar"/>
+	<classpathentry kind="src" path="/AjaxTree"/>
+	<classpathentry kind="lib" path="/Common Library/dsw/wpijava.jar"/>
+	<classpathentry kind="src" path="/quoteBase"/>
+	<classpathentry kind="src" path="/quoteShared"/>
+	<classpathentry kind="src" path="/ServiceClient"/>
+	<classpathentry kind="lib" path="/Common Library/apache/jakarta-regexp-1.2.jar"/>
+	<classpathentry kind="lib" path="/Common Library/apache/velocity-1.5.jar"/>
+	<classpathentry kind="src" path="/Common Validators"/>
+	<classpathentry kind="lib" path="/Common Library/xrule/dolphin-xrules_v1.0.0.jar"/>
+	<classpathentry kind="lib" path="/Common Library/xrule/dsw-dolphin-hirix.jar"/>
+	<classpathentry kind="lib" path="/Common Library/xrule/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="/Common Library/xrule/asm-2.2.jar"/>
+	<classpathentry kind="lib" path="/Common Library/xrule/groovy-1.5.8.jar"/>
+	<classpathentry kind="lib" path="/Common Library/apache/commons-jexl-1.1.IBM.jar"/>
+	<classpathentry kind="lib" path="/Common Library/pdf/core-renderer.jar"/>
+	<classpathentry kind="lib" path="/Common Library/pdf/iText-2.0.8.jar"/>
+	<classpathentry kind="lib" path="/Common Library/apache/poi-3.2-FINAL.jar"/>
+	<classpathentry kind="lib" path="/Common Library/apache/poi-contrib-3.2-FINAL.jar"/>
+	<classpathentry kind="lib" path="/Common Library/apache/poi-scratchpad-3.2-FINAL.jar"/>
+	<classpathentry kind="lib" path="/Common Library/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="/Common Library/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="src" path=".apt_generated">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Common Library/dsw/jdom.jar"/>
+	<classpathentry kind="lib" path="/Common Library/log4j-1.2.8.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/com.ibm.ws.ast.st.runtime.runtimeTarget.v70/WebSphere Application Server v7.0 (full)">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.utility"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/WebSphere Application Server v7.0 JRE">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/EAD4J 4.1.0/ead4j-common-bin.jar" sourcepath="/EAD4J 4.1.0/ead4j-common-src.jar"/>
+	<classpathentry kind="lib" path="/EAD4J 4.1.0/ead4j-common-src.jar"/>
+	<classpathentry kind="lib" path="/EAD4J 4.1.0/ead4j-jade-bin.jar" sourcepath="/EAD4J 4.1.0/ead4j-jade-src.jar"/>
+	<classpathentry kind="lib" path="/EAD4J 4.1.0/ead4j-jade-src.jar"/>
+	<classpathentry kind="lib" path="/EAD4J 4.1.0/ead4j-opal-bin.jar" sourcepath="/EAD4J 4.1.0/ead4j-opal-src.jar"/>
+	<classpathentry kind="lib" path="/EAD4J 4.1.0/ead4j-opal-src.jar"/>
+	<classpathentry kind="lib" path="/EAD4J 4.1.0/ead4j-opalx_log4j-bin.jar"/>
+	<classpathentry kind="lib" path="/EAD4J 4.1.0/ead4j-opalx_log4j-src.jar"/>
+	<classpathentry kind="lib" path="/EAD4J 4.1.0/ead4j-topaz_jdbc-bin.jar"/>
+	<classpathentry kind="lib" path="/EAD4J 4.1.0/ead4j-topaz_jdbc-src.jar"/>
+	<classpathentry kind="lib" path="/EAD4J 4.1.0/ead4j-topaz-bin.jar"/>
+	<classpathentry kind="lib" path="/EAD4J 4.1.0/ead4j-topaz-src.jar"/>
+	<classpathentry kind="lib" path="/EAD4J 4.1.0/ead4j-quartz-bin.jar"/>
+	<classpathentry kind="lib" path="/EAD4J 4.1.0/ead4j-quartz-src.jar"/>
+	<classpathentry kind="lib" path="/EAD4J 4.1.0/ead4j-topaz.quartz.ext-bin.jar"/>
+	<classpathentry kind="lib" path="/EAD4J 4.1.0/ead4j-topaz.quartz.ext-src.jar"/>
+	<classpathentry kind="lib" path="/Common Library/dsw/json.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Common JSP Tag Library V17"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Common Security"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

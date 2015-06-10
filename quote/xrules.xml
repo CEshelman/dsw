@@ -1,0 +1,27 @@
+<xrules>
+   <rule id="checkAuth">
+   	  <pre-process id="getValueScript">${groovy:<![CDATA[
+   	 	String quoteValue0 = quote[0].getParamValue();
+ 	    String quoteValue1 = quote[1].getParamValue();
+    	return quoteValue0+" is "+quoteValue1;
+   	     ]]>}
+   	  </pre-process>
+   	  <result value="${getValueScript}"/>
+   </rule>
+
+	<rule id="validateSpecialBid_5">
+	 <pre-process id="getNameScript">${groovy:<![CDATA[
+	  String quoteName0 = quote[0].getParamName();
+	  String quoteName1 = quote[1].getParamName();
+	  return quoteName0.equals(quoteName1);
+	 ]]>}	 
+	 </pre-process>
+		<result value="${getNameScript}"/>
+	</rule>
+	
+	<rule id="validateSpecialBidInterface">
+      <result value="${xrules.execute('checkAuth')}">
+         <condition if="${xrules.execute('validateSpecialBid_5') == true }"/>
+      </result>
+   </rule>
+</xrules>

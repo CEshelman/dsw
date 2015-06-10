@@ -1,0 +1,26 @@
+<div style="font-size:13px;font-family:Default Sans Serif;">
+***Note: This is an automated e-mail message; please do not respond directly.***
+<p />
+This e-mail was sent by an automated service.  Please do not reply.  For additional information, please contact the sales rep reference below.
+<p />
+Sales rep name: $name<br />
+Sales rep email: $email
+<p />
+Opportunity owner name: $name <br />
+Opportunity owner email: $email
+<p />
+Please find attached:
+<p />
+Document type:  Amended Terms of Use<br />
+Document name: $TouName
+<p />
+Customer number: $custNum<br />
+Customer name: $custName
+<p />
+Reference quote number: $quoteNum <br />
+Reference order number: $orderNum
+</div>
+<font color="#F7F7F7">
+${serverDetail}
+</font>
+
