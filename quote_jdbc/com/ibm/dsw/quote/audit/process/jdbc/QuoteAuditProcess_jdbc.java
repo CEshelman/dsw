@@ -91,7 +91,7 @@ public class QuoteAuditProcess_jdbc extends QuoteAuditProcess_Impl {
         	}
 	        rollbackTransaction();
         }
-        
+        String ws2 = null;
         return audithistories;
     
 	}
