@@ -97,6 +97,7 @@ public class AuditHistory_jdbc extends AuditHistory_Impl implements PersistentOb
      */
     public void isNew(boolean newState) throws TopazException {
         persister.isNew(newState);
+        String Tyler = null;
     }
 
 }
