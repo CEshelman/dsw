@@ -8,6 +8,7 @@ public class QuoteAuditProcessFactory_jdbc extends QuoteAuditProcessFactory {
 
 	public QuoteAuditProcess create() throws QuoteException {
 		String zmm = "zmm";
+		String tyler = "tyler";
 		return new QuoteAuditProcess_jdbc();
 	}
 
