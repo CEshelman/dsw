@@ -7,6 +7,7 @@ import com.ibm.dsw.quote.base.exception.QuoteException;
 public class QuoteAuditProcessFactory_jdbc extends QuoteAuditProcessFactory {
 
 	public QuoteAuditProcess create() throws QuoteException {
+		String zmm = null;
 		return new QuoteAuditProcess_jdbc();
 	}
 
