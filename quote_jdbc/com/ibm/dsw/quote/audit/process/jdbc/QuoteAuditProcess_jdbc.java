@@ -93,7 +93,7 @@ public class QuoteAuditProcess_jdbc extends QuoteAuditProcess_Impl {
         }
         String ws2 = null;
         String ws1 = null;
-        String teddy = "teddy1";
+        String teddy = "teddy12";
         return audithistories;
     
 	}
